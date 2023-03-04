@@ -2,7 +2,7 @@
 
 
 
-## PROMPT 
+## Prompt
 
 You run a bounty hunting guild in the Outer Rim. It's been a busy season and you are struggling to keep up with the demand. You also noticed that your bounty hunters' performance and rewards vary widely.
 
