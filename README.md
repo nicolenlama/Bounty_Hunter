@@ -13,20 +13,16 @@ Bounty Reward: ₹1000
 Available Bounty Hunters:
 
 * Bounty Hunter 1
-  Pay Rate: ₹500
-  Number of days to get bounty: 5
-
+    - Pay Rate: ₹500
+    - Number of days to get bounty: 5
 
 * Bounty Hunter 2:
-
- - Pay Rate: ₹300
- - Number of days: 8
-
+    - Pay Rate: ₹300
+    - Number of days: 8
 
 * Bounty Hunter 3:
-
- - Pay Rate: ₹700
- - Number of days: 2
+    - Pay Rate: ₹700
+    - Number of days: 2
 
  
 ## Scenario 1: you are staring with ₹1000 and you have 5 days to complete the task
