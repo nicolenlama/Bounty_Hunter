@@ -47,3 +47,10 @@ I decided to solve this problem using a Greedy approach.
 * Python 3.9.12
 * sys
  
+ ### Running the code
+ 
+ 1. Clone the GitHub repo
+ 2. Run ```python setup.py install```
+ 3. Run ```python bounty_code/bounty_core.py```
+ 
+*Note: to run tests, run ```python tests/test_basic.py or tests/test_advanced.py```
