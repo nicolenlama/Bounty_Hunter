@@ -34,6 +34,7 @@ Available Bounty Hunters:
 
 
 ## Greedy Implementation
+
 I decided to solve this problem using a Greedy approach. 
 1. Initialize a list of bounty hunters with their pay rates and times required to completed the bounty (I created a Bounty Hunter class to help me organize the data)
 2. Sort the bounty hunters by increasing pay
@@ -41,4 +42,8 @@ I decided to solve this problem using a Greedy approach.
 4. If a bounty hunter exists, return the total profit
 5. If a bounty hunter does not exist, exit the program
 
+### Dependencies
+
+* Python 3.9.12
+* sys
  
