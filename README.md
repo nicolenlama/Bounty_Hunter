@@ -25,7 +25,7 @@ Available Bounty Hunters:
     - Number of days: 2
 
  
-## Scenario 1: you are staring with ₹1000 and you have 5 days to complete the task
+### Scenario 1: you are staring with ₹1000 and you have 5 days to complete the task
 
 * if you send bounty hunter 3 twice, you will have ₹1600
 
