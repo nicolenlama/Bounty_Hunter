@@ -15,7 +15,7 @@ def bounty_calculator(initial_credit: int, days: int, bounty_hunters=None) -> in
         provide list of available bounty hunters using the Hunter class
 
     """
-    
+
     if bounty_hunters is None:
         bounty_hunters = sorted(_BOUNTY_HUNTERS, key=lambda x: x._pay)
     else:
@@ -47,7 +47,7 @@ def bounty_calculator(initial_credit: int, days: int, bounty_hunters=None) -> in
     if num_bounties == 0:
         raise Exception(
             "Job cannot be completed. \
-                        No suitable bounty hunters for task."
+             No suitable bounty hunters for task."
         )
 
     return initial_credit
