@@ -53,4 +53,4 @@ I decided to solve this problem using a Greedy approach.
  2. Run ```python setup.py install```
  3. Run ```python bounty_code/bounty_core.py```
  
-> Note: to run tests, run ```python tests/test_basic.py or python tests/test_advanced.py```
+> Note: to run tests, run ```python tests/test_basic.py``` or ```python tests/test_advanced.py```
