@@ -15,9 +15,12 @@ def bounty_calculator(initial_credit: int, days: int, bounty_hunters=None) -> in
         provide list of available bounty hunters using the Hunter class
 
     """
-
+    
     if bounty_hunters is None:
         bounty_hunters = sorted(_BOUNTY_HUNTERS, key=lambda x: x._pay)
+    else:
+        bounty_hunters = sorted(bounty_hunters, key=lambda x: x._pay)
+    
     num_bounties = 0
 
     for _ in range(days):
