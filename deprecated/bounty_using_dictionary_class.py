@@ -1,4 +1,8 @@
-def bounty_calculator(initial_credit: int, days: int) -> int:
+def bounty_calculator_dictionary(initial_credit: int, days: int) -> int:
+    """
+    This function will implement the same bounty_core code but using
+    the class_to_dictionary function from the helper module
+    """
     from helper import class_to_dictionary
 
     bounty_hunters = class_to_dictionary(_BOUNTY_HUNTERS)
@@ -39,5 +43,5 @@ if __name__ == "__main__":
 
     _BOUNTY_HUNTERS = [boba, cad, aurra]
 
-    result = bounty_calculator(1000, 5)
+    result = bounty_calculator_dictionary(1000, 5)
     print(result)

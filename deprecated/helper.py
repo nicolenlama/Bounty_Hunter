@@ -1,4 +1,9 @@
 def class_to_dictionary(hunters):
+    """
+    This function will return a dictionary version of the 
+    Hunter class
+    """
+
     hunters_res = []
     for hunter in hunters:
         hunter_dict = {
